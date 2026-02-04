@@ -42,6 +42,18 @@ echo "<p> porownanie a == c to:".$wynik."</p>";
 $wynik=($a!=$c);
 echo "<p> porownanie a != c to:".$wynik."</p>";
 
+$f=true;
+$g=false;
+echo" spojnik LUB(f||g) wynik:". ($f||$g)."<br>";
+echo" spojnik LUB(f&&g) wynik:". ($f&&$g)."<br>";
+
+$a1=5;
+$a2=10;
+$a3=15;
+
+echo"15:15= 
+
+
 
 
 
