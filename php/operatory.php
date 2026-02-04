@@ -35,6 +35,14 @@ $wynik=($a!=$c);
 echo "porownanie a != c to: ".$wynik."<br>";
 $wynik=($c===$d);
 echo "porownanie a === c to: ".$wynik."<br>";
+$wynik=($a>=$c);
+echo "<p> porownanie a >= c to:".$wynik."</p>";
+$wynik=($a==$c);
+echo "<p> porownanie a == c to:".$wynik."</p>";
+$wynik=($a!=$c);
+echo "<p> porownanie a != c to:".$wynik."</p>";
+
+
 
 
 
