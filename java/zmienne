@@ -16,7 +16,7 @@ wypisz.innerHTML+="<br>";
 wypisz.innerHTML+="a= "+a;
 wypisz.innerHTML+="a+b= "+(a+b);
 wypisz.innerHTML+="c+d ="+(c+d);
-console.log("panalan,to,kfox");
+console.log("panalan,to,kfwqewqewqeox");
 
 
 
