@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<p id="wynik"></p>;
+
+
+<script>
+
+var wypisz = document.getElementById("wynik");
+
+var a=4;
+var b=5;
+var c=7;
+var d=5.2;
+var e=false;
+var f=true;
+
+wypisz.innerHTML+="zmienna a wynosi: "+a+"<br>";
+wypisz.innerHTML+="zmienna b wynosi: "+b+"<br>";
+wypisz.innerHTML+="zmienna c wynosi: "+c+"<br>";
+wypisz.innerHTML+="zmienna d wynosi: "+d+"<br>";
+wypisz.innerHTML+="zmienna falsz to: "+e+"<br>";
+wypisz.innerHTML+="zmienna prawda to: "+f+"<br>";
+
+wypisz.innerHTML+="<br>";
+var x=3;
+var y=7;
+
+var suma= x+y;
+var roznica= x-y;
+var mnozenie= x*y;
+var dzielenie= x/y;
+var reszta= x%y;
+var potega= x**y;
+
+wypisz.innerHTML+="suma 3 i 7 wynosi: "+suma+"<br>";
+wypisz.innerHTML+="roznica 3 i 7 wynosi: "+roznica+"<br>";
+wypisz.innerHTML+="wynik z mnozenia wynosi: "+mnozenie+"<br>";
+wypisz.innerHTML+="wynik z dzielenia wynosi: "+dzielenie+"<br>";
+wypisz.innerHTML+="reszta z tych liczb wynosi: "+reszta+"<br>";
+wypisz.innerHTML+="potega tych liczb to: "+potega+"<br>";
+
+
+
+    
+
+
+
+
+
+    </script>
+</body>
+</html>
