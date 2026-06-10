@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="wypisz"></p>
+    <script>
+
+        var wypisz=document.getElementById("wypisz");
+
+        wypisz.innerHTML="Zadanie 1";
+        wypisz.innerHTML+="<br>";
+        
+        for(let i = 1; i <= 75; i++)
+        {
+            wypisz.innerHTML+="zmienna i= "+i
+        }
+
+        wypisz.innerHTML+="<br>";
+        wypisz.innerHTML+="Zadanie 2";
+
+        for(let i = 14; i >=0; i--)
+        {
+            wypisz.innerHTML+="i= "+i+"<br>"
+        }
+
+        wypisz.innerHTML+="<br>";
+        wypisz.innerHTML+="Zadanie 3";
+        wypisz.innerHTML+="<br>";
+
+
+        var a=1;
+
+        for(var i=0; i<20; i++)
+        {
+            wypisz.innerHTML+=a+" "+"<br>"
+            a+=2
+        }
+
+        wypisz.innerHTML+="<br>";
+        wypisz.innerHTML+="Zadanie 4";
+        wypisz.innerHTML+="<br>";
+
+
+
+        var n=5;
+        var silnia=1;
+
+        for(var i=1; i<=n; i++)
+        {
+            silnia*=i
+            wypisz.innerHTML+=silnia+"<br>"
+        }
+
+
+        wypisz.innerHTML+="<br>";
+        wypisz.innerHTML+="Zadanie 5";
+        wypisz.innerHTML+="<br>";
+
+        var tab= [7, 3, 1, 6, 9, 5, 4, 10, 3, 2, 4, 3, 6, 12, 15, 4]
+
+        var suma=0;
+        for(var i=0; i<tab.length; i++)
+        {
+            suma+=tab[i];
+        }
+        var średnia = suma / tab.length;
+        wypisz.innerHTML+=" "+średnia+" ";
+
+        
+ 
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
